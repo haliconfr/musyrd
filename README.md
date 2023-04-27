@@ -1,7 +1,7 @@
 # musyrd
-android app for posting music reviews
+android app template for posting reviews
 
-you can also use this as a template if you want it to feature another type of review! (ie. movie reviews, restaurant reviews)
+currently built for music reviews, but you can use it for any other subject (ie. movie reviews, restaurant reviews)
 
 ! to use this app you need an algolia search account and a firebase and firebase storage account !
 
