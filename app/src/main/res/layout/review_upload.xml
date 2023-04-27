@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141915">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="585dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bar" />
+
+    <ImageView
+        android:id="@+id/backbuttonRev"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test"
+        app:tint="#DADADA" />
+
+    <ImageView
+        android:id="@+id/reviewAlbCover"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewbox"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icontemp" />
+
+    <TextView
+        android:id="@+id/reviewAlbTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/reviewAlbCover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toEndOf="@+id/reviewAlbCover"
+        app:layout_constraintTop_toTopOf="@+id/reviewAlbCover" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/revtxt"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/reviewbox"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewbox"
+        app:layout_constraintTop_toBottomOf="@+id/reviewAlbCover" />
+
+    <Button
+        android:id="@+id/postreview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#6E6E6E"
+        android:text="@string/post"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <EditText
+        android:id="@+id/reviewbox"
+        android:layout_width="371dp"
+        android:layout_height="395dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/writerev"
+        android:inputType="textMultiLine"
+        android:textAlignment="textStart"
+        android:textColor="#AFAFAF"
+        android:textColorHint="#AFAFAF"
+        android:textColorLink="#006A6A6A"
+        app:layout_constraintBottom_toTopOf="@+id/postreview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/stars"
+        android:layout_width="219dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox"
+        app:srcCompat="@drawable/onestar" />
+
+    <TextView
+        android:id="@+id/oneStar"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stars"
+        app:layout_constraintEnd_toEndOf="@+id/stars"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/stars"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+    <TextView
+        android:id="@+id/twoStar"
+        android:layout_width="45dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stars"
+        app:layout_constraintEnd_toEndOf="@+id/stars"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="@+id/stars"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+    <TextView
+        android:id="@+id/threeStar"
+        android:layout_width="41dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stars"
+        app:layout_constraintEnd_toEndOf="@+id/stars"
+        app:layout_constraintStart_toStartOf="@+id/stars"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+    <TextView
+        android:id="@+id/fourStar"
+        android:layout_width="43dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stars"
+        app:layout_constraintEnd_toEndOf="@+id/stars"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/stars"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+    <TextView
+        android:id="@+id/fiveStar"
+        android:layout_width="45dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="@+id/stars"
+        app:layout_constraintEnd_toEndOf="@+id/stars"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/stars"
+        app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

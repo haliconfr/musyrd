@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="85dp"
+    android:background="#121613"
+    android:layoutDirection="locale">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/userMask"
+        android:layout_width="97dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@drawable/usermask" />
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="39dp"
+        android:layout_height="16dp"
+        android:text="100%"
+        android:textAlignment="center"
+        android:textColor="#00FF0D"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/userMask"
+        app:layout_constraintEnd_toEndOf="@+id/userImage"
+        app:layout_constraintStart_toStartOf="@+id/userImage"
+        app:layout_constraintTop_toTopOf="@+id/userImage"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

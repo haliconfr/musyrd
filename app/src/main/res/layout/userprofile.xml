@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:background="#141915">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="8dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userPfpProf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/options" />
+
+    <com.halicon.muspublic.NDSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="21dp"
+        android:layout_height="29dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/gotoSearchProf"
+        android:layout_width="61dp"
+        android:layout_height="65dp"
+        android:background="#00FFFFFF"
+        android:foregroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gotoProfileProf"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/gotoMainProf"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/gotoMainProf"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:foregroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/gotoProfileProf"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:foregroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/gotoMainProf"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="441dp"
+        android:layout_height="69dp"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ui" />
+
+    <ImageView
+        android:id="@+id/profSeparator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPfpProf"
+        app:layout_constraintVertical_bias="0.26"
+        app:srcCompat="@drawable/seperator" />
+
+    <ImageView
+        android:id="@+id/userPfpProf"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icontemp" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/followbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPfpProf"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <TextView
+        android:id="@+id/userProfFollowers"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#B6B6B6"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/followbutton"
+        app:layout_constraintEnd_toEndOf="@+id/userProfFollowersText"
+        app:layout_constraintStart_toStartOf="@+id/userProfFollowersText"
+        app:layout_constraintTop_toBottomOf="@+id/profileName"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/userProfBio"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="bio"
+        android:textColor="#B6B6B6"
+        app:layout_constraintBottom_toTopOf="@+id/profSeparator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followbutton" />
+
+    <TextView
+        android:id="@+id/userProfFollowersText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followers"
+        android:textColor="#B6B6B6"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/followbutton"
+        app:layout_constraintEnd_toStartOf="@+id/userProfFollowingText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/userPfpProf"
+        app:layout_constraintTop_toBottomOf="@+id/userProfFollowers"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/userProfFollowingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/following"
+        android:textColor="#B6B6B6"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/followbutton"
+        app:layout_constraintEnd_toEndOf="@+id/userPfpProf"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/userPfpProf"
+        app:layout_constraintTop_toBottomOf="@+id/userProfFollowing"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/userProfFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#B6B6B6"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/followbutton"
+        app:layout_constraintEnd_toEndOf="@+id/userProfFollowingText"
+        app:layout_constraintStart_toStartOf="@+id/userProfFollowingText"
+        app:layout_constraintTop_toBottomOf="@+id/profileName"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/followbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:backgroundTint="#6E6E6E"
+        android:text="@string/unfollow"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/profSeparator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPfpProf"
+        app:layout_constraintVertical_bias="0.71000004" />
+
+    <TextView
+        android:id="@+id/noposts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_hasnt_posted_anything"
+        android:textColor="#A3A3A3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nestedScrollView2"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="376dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profSeparator"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/relView"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:overScrollMode="never"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:itemCount="0">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/deleteuser"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/profSeparator"
+        app:layout_constraintEnd_toStartOf="@+id/followbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.Theme.Musyrd.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/main</item>
+    </style>
+
+    <style name="Widget.Theme.Musyrd.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/main</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+</resources>

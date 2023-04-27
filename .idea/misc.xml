@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/font/.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/comguidelines.xml" value="0.264" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/editprofile.xml" value="0.2" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/explore.xml" value="0.2471131639722864" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/followList.xml" value="0.15625" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/followlist.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/listitem.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/login_screen.xml" value="0.536" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/main_app.xml" value="0.136" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/reccomended_users.xml" value="0.264" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/reccomended_usersitem.xml" value="1.6" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/recommended_usersitem.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/releasepage.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/relitem.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/reporting.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/review_upload.xml" value="0.176" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/reviewitem.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/reviewupload.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/revitem.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/searchitem.xml" value="0.536" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/upload_screen.xml" value="0.2" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/userListItem.xml" value="0.536" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/useritem.xml" value="2.134920634920635" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/userprofile.xml" value="0.4" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/layout/usersearchitem.xml" value="0.536" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/maxte/AndroidStudioProjects/musyrd/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14322916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

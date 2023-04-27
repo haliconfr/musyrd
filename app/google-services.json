@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34057075210",
+    "project_id": "musyrd-750a1",
+    "storage_bucket": "musyrd-750a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34057075210:android:a47e8d5505a91224027df3",
+        "android_client_info": {
+          "package_name": "com.halicon.musyrd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34057075210-k9prqp09q95alv07tdso3a5je0p8of36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcsIxrWRYVQu_ii_Tgugsan04w10Wrjmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34057075210-k9prqp09q95alv07tdso3a5je0p8of36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

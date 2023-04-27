@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="354dp"
+    android:layout_height="wrap_content"
+    android:background="#121613"
+    android:layoutDirection="locale">
+
+    <ImageView
+        android:id="@+id/delicon"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/relitemStars"
+        app:srcCompat="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/relitemDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1"
+        android:text="28/12/28"
+        android:textColor="#858585"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/relitemArt"
+        app:layout_constraintTop_toBottomOf="@+id/revArt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/revArtist"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="#858585"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/revArt"
+        app:layout_constraintEnd_toEndOf="@+id/revUsr"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/revUsr"
+        app:layout_constraintTop_toBottomOf="@+id/revTitle"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <TextView
+        android:id="@+id/revTitle"
+        android:layout_width="277dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="#D8D8D8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/revUsr"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/revUsr"
+        app:layout_constraintTop_toBottomOf="@+id/revUsr"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/relText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="#A5A5A5"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/revArt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/revArt"
+        app:layout_constraintTop_toBottomOf="@+id/relitemDate2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/revUsr"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_weight="3"
+        android:text="halicon"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/revArt"
+        app:layout_constraintTop_toTopOf="@+id/revArt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/revArt"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/revUsr"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/relitemStars"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/revArtist"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/relText"
+        app:layout_constraintTop_toBottomOf="@+id/relText"
+        app:srcCompat="@drawable/fivestar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
