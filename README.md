@@ -5,7 +5,7 @@ currently built for music reviews, but you can use it for any other subject (ie.
 
 ! to use this app you need an algolia search account and a firebase and firebase storage account !
 
-db.collection("users") contains all user data in text form
+db.collection("users") contains all user data in text form,
 db.collection("releases") contains all content that reviews can be posted of
 
 
