@@ -17,11 +17,11 @@ Features:
 
 - The app scans the current user's account and can find other users that have reviewed the same things. A percentage similarity of both user's posted reviews shows at the top of main_app.xml
 
-- Users can delete reviews they've posted using the icon of the bin in the corner of their review's card.
+- Users can delete reviews they've posted using the bin icon in the corner of their review.
 
-- Reviews that the user has posted includes their star rating, username, review text and the date it was posted.
+- Reviews include the star rating, username of the reviewer, review text and the date it was posted.
 
-- Tapping the name of the release on review cards loads a page featuring other reviews of the same release, along with an average star rating at the top of the page.
+- Tapping the name of the subject on reviews loads a page featuring other reviews of the same subject, along with an average star rating at the top of the page.
 
 - Tapping the user's name on review cards loads their profile.
 
@@ -29,13 +29,13 @@ Features:
 
 - Fully functional login screen making it easy for users to create and login to accounts using their username, email and password.
 
-- The ability to follow users and releases, which makes all reviews from those you follow appear on main_app.xml
+- The ability to follow users and subject, which makes all reviews from those you follow appear on main_app.xml
 
 - The ability to log out of your current account using the dropdown menu at the top of main_app.xml
 
-- The ability to report other users and reviews, which adds them to a list in your firebase database, making it easy to delete their account/the release.
+- The ability for users to report other users and subjects, which adds them to a list in the admin's firebase database, making it easy to ban the offending account/delete the offending release.
 
-- The ability to block other users, causing that user to never see your reviews are the current user to never see theirs.
+- The ability to block other users, causing that user to never see your reviews you to never see theirs.
 
 
 
