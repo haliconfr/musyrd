@@ -29,7 +29,7 @@ Features:
 
 - Fully functional login screen making it easy for users to create and login to accounts using their username, email and password.
 
-- The ability to follow users and subject, which makes all reviews from those you follow appear on main_app.xml
+- The ability to follow users and subjects, which makes all reviews from those you follow appear on main_app.xml
 
 - The ability to log out of your current account using the dropdown menu at the top of main_app.xml
 
