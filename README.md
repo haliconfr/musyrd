@@ -1,6 +1,9 @@
 # musyrd
 android app template for posting reviews
 
+![sc4](https://github.com/maxtearney/musyrd/assets/88261993/ad352e92-0128-4615-956e-a4748eeac874) ![sc3](https://github.com/maxtearney/musyrd/assets/88261993/28565e9f-7a08-48ac-b418-2ac8fee91d4e)
+
+
 currently built for music reviews, but you can use it for any other subject (ie. movie reviews, restaurant reviews)
 
 ! to use this app you need an algolia search account and a firebase and firebase storage account !
