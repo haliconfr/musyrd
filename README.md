@@ -41,5 +41,5 @@ Features:
 - The ability to block other users, causing that user to never see your reviews you to never see theirs.
 
 
-very heavily modified version of (https://github.com/maxtearney/Wave "Wave")
+very heavily modified version of [Wave]([https://www.google.com](https://github.com/maxtearney/Wave) "Wave")
 feel free to use any code/visual assets for anything! no need for credit :)
